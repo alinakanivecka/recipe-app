@@ -1,0 +1,33 @@
+.recipes-page {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1.5rem 5rem;
+
+  .recipes-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2.5rem;
+    width: 100%;
+
+    app-recipe-card,
+    app-recipe-card-skeleton {
+      flex: 0 0 calc((100% - 3rem) / 4);
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .recipes-page {
+    padding: 1.5rem 1rem;
+
+    .recipes-list {
+      app-recipe-card,
+      app-recipe-card-skeleton {
+        flex: 0 0 calc((100% - 1rem) / 2);
+      }
+    }
+  }
+}

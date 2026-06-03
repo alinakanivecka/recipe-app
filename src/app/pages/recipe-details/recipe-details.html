@@ -1,0 +1,116 @@
+@if (isLoading()) {
+<app-recipe-details-skeleton />
+}@else if (errorMessage()) {
+<p>{{ errorMessage() }}</p>
+} @else if (noResults()) {
+<div class="not-found-result">
+  <h1>No recipes found.</h1>
+  <p>Please try another term</p>
+</div>
+} @else if(recipeById(); as recipe) {
+<div class="recipe-details">
+  <header class="recipe-details__header">
+    <button class="back-btn" type="button" (click)="goBack()"><i class="fa-solid fa-arrow-left"></i>
+      Back</button>
+    <button type="button" class="favorites-btn" (click)="toggleFavorite(recipe.id)">
+      <i class="fa-solid fa-heart" [class.active]="favoriteService.isFavorite(recipe.id)"></i>
+      <span>
+        {{ favoriteService.isFavorite(recipe.id) ? 'Remove from favorites' : 'Add to favorites' }}
+      </span>
+    </button>
+  </header>
+
+  <section class="recipe-details__info">
+    <div class="info-description">
+      <h1 class="recipe-title">{{recipe.title}}</h1>
+      <p class="recipe-summary">{{getShortSummary(recipe)}}</p>
+      <div class="recipe-stats">
+        <div class="recipe-stat">
+          <i class="fa-solid fa-clock"></i>
+          <span class="recipe-stat__value">{{recipe.readyInMinutes}} min</span>
+          <span class="recipe-stat__label">Time</span>
+        </div>
+        <div class="recipe-stat">
+          <i class="fa-solid fa-chart-simple"></i>
+          <span class="recipe-stat__value">{{showDifficulty(recipe)}}</span>
+          <span class="recipe-stat__label">Difficulty</span>
+        </div>
+        <div class="recipe-stat">
+          <i class="fa-solid fa-users"></i>
+          <span class="recipe-stat__value">{{recipe.servings}}</span>
+          <span class="recipe-stat__label">Servings</span>
+        </div>
+        <div class="recipe-stat">
+          <i class="fa-solid fa-fire"></i>
+          <span class="recipe-stat__value">{{getNutrientAmount(recipe, "Calories") | number:'1.0-0'}}</span>
+          <span class="recipe-stat__label">Calories</span>
+        </div>
+      </div>
+
+      <div class="nutrition-list">
+        @for (card of nutritionCards; track card.nutrient) {
+        <div class="nutrition-card">
+          <div class="nutrition-card__icon" [class]="card.className">
+            <i [class]="card.icon"></i>
+          </div>
+
+          <div class="nutrition-card__info">
+            <span class="nutrition-card__value">
+              {{ getNutrientAmount(recipe, card.nutrient) | number:'1.0-0' }}{{ card.unit }}
+            </span>
+            <span class="nutrition-card__label">{{ card.label }}</span>
+          </div>
+        </div>
+        }
+      </div>
+
+      <div class="nutrition-tags">
+
+        @if (recipe.vegetarian) {
+        <div class="nutrition-tag">
+          <span><i class="fa-brands fa-envira"></i> Vegetarian</span>
+        </div>
+        }
+
+        @if (recipe.glutenFree) {
+        <div class="nutrition-tag">
+          <span><i class="fa-brands fa-pagelines"></i> Gluten Free</span>
+        </div>
+        }
+        @if (recipe.dairyFree) {
+        <div class="nutrition-tag">
+          <span><i class="fa-solid fa-cheese"></i> Dairy Free</span>
+        </div>
+        }
+      </div>
+    </div>
+
+    <img class="recipe-image" [src]="recipe.image" [alt]="recipe.title">
+  </section>
+
+  <section class="recipe-details__preparation">
+    <div class="recipe-ingredients recipe-list">
+      <h2 class="list-title"><i class="fa-solid fa-basket-shopping"></i> Ingredients</h2>
+      <ul class="recipe-list__items">
+        @for (ingredient of recipe.extendedIngredients ?? []; track ingredient.id) {
+        <li class="recipe-list__item list-item">{{ingredient.original}}</li>
+        }
+      </ul>
+    </div>
+
+    <div class="recipe-instructions recipe-list">
+      <h2 class="list-title"><i class="fa-solid fa-utensils"></i> Instructions</h2>
+      <ul class="recipe-list__items">
+        @for (instruction of recipe.analyzedInstructions ?? []; track instruction.name) {
+        @for (step of instruction.steps; track step.number) {
+        <li class="recipe-list__step list-item">
+          <span class="recipe-list__step-number">{{ step.number }}</span>
+          <span class="recipe-list__step-text">{{ step.step }}</span>
+        </li>
+        }
+        }
+      </ul>
+    </div>
+  </section>
+</div>
+}

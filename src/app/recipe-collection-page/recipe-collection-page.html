@@ -1,0 +1,35 @@
+<div class="recipes-page">
+  @if (isLoading()) {
+  <div class="recipes-list">
+    @for (_ of skeletonCards; track $index) {
+    <app-recipe-card-skeleton></app-recipe-card-skeleton>
+    }
+  </div>
+  } @else if (errorMessage()) {
+  <div class="not-found-result">
+    <h1>{{ errorMessage() }}</h1>
+    <p>Please try again later</p>
+  </div>
+  } @else if (noResults()) {
+  <div class="not-found-result">
+    <h1>No recipes found.</h1>
+    @if (hasSearchQuery()) {
+    <p>Please try another term</p>
+    }
+  </div>
+  } @else {
+  <div class="btn-wrap">
+    <button class="back-btn" type="button" (click)="goBack()"><i class="fa-solid fa-arrow-left"></i>Back</button>
+  </div>
+  <h1>{{title()}}</h1>
+
+  <div class="recipes-list">
+    @for (recipe of recipes(); track recipe.id) {
+    <app-recipe-card [recipe]="recipe" variant="full"></app-recipe-card>
+    }
+  </div>
+
+  <app-pagination class="pagination" [currentPage]="currentPage()" [totalPages]="totalPages()"
+    (pageChange)="goToPage($event)"></app-pagination>
+  }
+</div>

@@ -1,0 +1,27 @@
+<div class="recipe-card" [class.recipe-card--full]="variant === 'full'">
+  <a class="recipe-card__link" [routerLink]="['/recipe', recipe.id]">
+    <div class="recipe-card__image">
+      <img [src]="recipe.image" [alt]="recipe.title">
+    </div>
+
+    <div class="recipe-card__info">
+      <span class="recipe-card__title">{{recipe.title}}</span>
+      <div class="recipe-card__preparing">
+        <span><i class="fa-regular fa-clock"></i>{{recipe.readyInMinutes}} min</span>
+        <span> <i class="fa-solid fa-chart-simple"></i> {{showDifficulty(recipe)}}</span>
+
+        @if (recipe.healthScore) {
+        <span class="health-score">
+          <i class="fa-solid fa-leaf"></i>
+          {{ recipe.healthScore | number:'1.0-0' }}
+        </span>
+        }
+      </div>
+    </div>
+  </a>
+
+  <button type="button" class="add-favorite-btn" (click)="toggleFavorite(recipe.id); $event.stopPropagation()"
+    [class.active]="favoriteService.isFavorite(recipe.id)">
+    <i class="fa-solid fa-heart"></i>
+  </button>
+</div>

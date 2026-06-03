@@ -1,0 +1,68 @@
+<section class="all-recipes-section">
+
+  @if (errorMessage()) {
+  <div class="not-found-result">
+    <h1>{{ errorMessage() }}</h1>
+    <p>Please try again later</p>
+  </div>
+  } @else if (noResults()) {
+  <div class="not-found-result">
+    <h1>No recipes found.</h1>
+    <p>Please try another term</p>
+  </div>
+  } @else {
+  <button class="back-btn" type="button" (click)="goBack()"><i class="fa-solid fa-arrow-left"></i>Back</button>
+
+  <main class="main">
+    <div class="recipes-layout">
+      @if (isFiltersOpen()) {
+      <div class="filters-overlay" tabindex="0" (click)="closeFilters()" (keydown)="closeFilters()"></div>
+      }
+
+      <div class="filter-side" [class.open]="isFiltersOpen()">
+        <button class="filters-close-btn" type="button" (click)="closeFilters()">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+
+        <app-filters [categories]="categories()" [diets]="diets()" [initialMealType]="appliedMealType()"
+          [initialDiets]="appliedDietsTypes()" [initialMaxReadyTime]="appliedMaxReadyTime()"
+          [initialDifficulty]="appliedDifficulty()" (apply)="applyFilters($event)" (clear)="clearFilters()" />
+      </div>
+
+
+      <div class="all-recipes">
+        <div class="all-recipes__header">
+          <div class="header-title">
+            <h1 class="section-title">Explore Recipes</h1>
+            <p class="total-recipes-count">{{totalResults()}} recipes found</p>
+          </div>
+
+          <div class="sorting">
+            <button class="filter-button" type="button" (click)="openFilters()"><i class="fa-solid fa-filter"></i>
+              Filters</button>
+            <p>Sort by:</p>
+            <app-dropdown [options]="sortOptions" [selectedValue]="sortMode()"
+              (selected)="selectSortMode($event)"></app-dropdown>
+
+          </div>
+        </div>
+
+        <div class="recipes-list">
+          @if (isLoading()) {
+          @for (_ of skeletonCards; track $index) {
+          <app-recipe-card-skeleton></app-recipe-card-skeleton>
+          }
+          } @else {
+          @for (recipe of recipes(); track recipe.id) {
+          <app-recipe-card [recipe]="recipe" variant="full"></app-recipe-card>
+          }
+          }
+        </div>
+      </div>
+    </div>
+
+    <app-pagination [currentPage]="currentPage()" [totalPages]="totalPages()"
+      (pageChange)="goToPage($event)"></app-pagination>
+  </main>
+  }
+</section>

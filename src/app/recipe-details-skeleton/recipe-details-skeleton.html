@@ -1,0 +1,59 @@
+<div class="recipe-details-skeleton">
+  <header class="skeleton-header">
+    <div class="skeleton back-btn"></div>
+    <div class="skeleton favorite-btn"></div>
+  </header>
+
+  <section class="skeleton-info">
+    <div class="skeleton-description">
+      <div class="skeleton title"></div>
+      <div class="skeleton summary"></div>
+      <div class="skeleton summary short"></div>
+
+      <div class="stats">
+        @for (_ of [1,2,3,4]; track $index) {
+        <div class="stat-card">
+          <div class="skeleton icon"></div>
+          <div class="skeleton stat-value"></div>
+          <div class="skeleton stat-label"></div>
+        </div>
+        }
+      </div>
+
+      <div class="nutrition">
+        @for (_ of [1,2,3,4]; track $index) {
+        <div class="nutrition-card">
+          <div class="skeleton circle"></div>
+          <div>
+            <div class="skeleton nutrient-value"></div>
+            <div class="skeleton nutrient-label"></div>
+          </div>
+        </div>
+        }
+      </div>
+
+      <div class="tags">
+        <div class="skeleton tag"></div>
+        <div class="skeleton tag"></div>
+      </div>
+    </div>
+
+    <div class="skeleton image"></div>
+  </section>
+
+  <section class="skeleton-preparation">
+    <div class="list-card ingredients">
+      <div class="skeleton list-title"></div>
+      @for (_ of [1,2,3,4,5]; track $index) {
+      <div class="skeleton line"></div>
+      }
+    </div>
+
+    <div class="list-card instructions">
+      <div class="skeleton list-title"></div>
+      @for (_ of [1,2,3,4,5,6]; track $index) {
+      <div class="skeleton line long"></div>
+      }
+    </div>
+  </section>
+</div>

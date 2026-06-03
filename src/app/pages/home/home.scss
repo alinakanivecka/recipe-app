@@ -1,0 +1,251 @@
+.hero {
+  display: flex;
+  align-items: center;
+  height: 25rem;
+  background-color: #f9f3ec;
+
+  .hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: right;
+  }
+
+  .hero-img--mobile {
+    display: none;
+  }
+
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    position: absolute;
+    padding-left: 5rem;
+    z-index: 2;
+
+    .hero-content__title {
+      font-size: 2.7rem;
+      line-height: 3.3rem;
+    }
+
+    .hero-content__info {
+      font-weight: 500;
+      font-size: 1.1rem;
+    }
+
+    .hero-btn {
+      border: none;
+      background-color: #d5693a;
+      color: white;
+      padding: 1rem;
+      border-radius: 1rem;
+      font-size: 1rem;
+      font-weight: 500;
+      margin-top: 0.8rem;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #bd5427;
+      }
+    }
+  }
+}
+
+.popular-recipes {
+  padding: 0 5rem;
+  margin: 3rem 0;
+}
+
+.categories {
+  padding: 0 5rem;
+  margin-bottom: 3rem;
+
+  .category {
+    flex: 0 0 calc((100% - 4rem) / 5);
+    border-radius: 1rem;
+    border: none;
+    height: 10.5rem;
+    cursor: pointer;
+
+    img {
+      width: 3.5rem;
+    }
+
+    .category-title {
+      margin: 1rem 0 0.5rem;
+      font-size: 1rem;
+      font-weight: 600;
+    }
+
+    .category-count {
+      color: rgb(140, 137, 137);
+    }
+  }
+}
+
+.cuisines {
+  padding: 0 5rem;
+  margin-bottom: 3rem;
+
+  .cuisine {
+    flex: 0 0 calc((100% - 4rem) / 5);
+    border-radius: 1rem;
+    width: 100%;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+
+    .img-container {
+      width: 100%;
+      height: 10rem;
+      border-top-right-radius: 1rem;
+      border-top-left-radius: 1rem;
+      overflow: hidden;
+      background: #f5f1eb;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .info-container {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      gap: 0.5rem;
+      padding: 1rem;
+      border: 1px solid #ece3e3;
+      border-top: none;
+      border-bottom-right-radius: 1rem;
+      border-bottom-left-radius: 1rem;
+      box-shadow: 0 8px 14px rgba(0, 0, 0, 0.07);
+
+      .cuisine-title {
+        font-size: 1rem;
+        font-weight: 600;
+      }
+
+      .cuisine-count {
+        color: rgb(140, 137, 137);
+      }
+    }
+  }
+}
+
+.carousel {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 0;
+  overflow-x: hidden;
+
+  app-recipe-card,
+  app-recipe-card-skeleton {
+    flex: 0 0 calc((100% - 4rem) / 5);
+  }
+}
+
+.section-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+
+  .section-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+  }
+
+  .carousel-stepper {
+    display: flex;
+    gap: 1rem;
+
+    button {
+      border-radius: 50%;
+      border: none;
+      background-color: #f1f1f1;
+      padding: 0.7rem;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #dbdada;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: 23rem;
+    align-items: start;
+
+    .hero-img--desktop {
+      display: none;
+    }
+
+    .hero-img--mobile {
+      display: block;
+      object-fit: cover;
+    }
+
+    .hero-content {
+      padding-left: 1rem;
+      margin-top: 3rem;
+      gap: 0.3rem;
+
+      .hero-content__title {
+        font-size: 1.5rem;
+        line-height: 2rem;
+      }
+
+      .hero-content__info {
+        font-size: 0.9rem;
+        width: 70%;
+      }
+
+      .hero-btn {
+        padding: 0.8rem;
+        font-size: 0.9rem;
+        border-radius: 0.8rem;
+      }
+    }
+  }
+
+  .popular-recipes,
+  .categories,
+  .cuisines {
+    padding: 0 1rem;
+    margin: 2rem 0;
+  }
+
+  .carousel {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 1rem;
+  }
+
+  .carousel app-recipe-card,
+  .carousel app-recipe-card-skeleton,
+  .categories .category,
+  .cuisines .cuisine {
+    flex: 0 0 calc((100% - 1rem) / 2);
+    scroll-snap-align: start;
+  }
+
+  .categories .category .category-title,
+  .cuisines .cuisine .cuisine-title {
+    font-size: 0.8rem;
+  }
+
+  .section-wrap {
+    .section-title {
+      font-size: 1.2rem;
+    }
+
+    .carousel-stepper {
+      display: none;
+    }
+  }
+}

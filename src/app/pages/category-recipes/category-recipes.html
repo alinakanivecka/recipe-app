@@ -1,0 +1,3 @@
+<app-recipe-collection-page [title]="'Explore ' + categoryTitle()" [recipes]="recipesByCategory()"
+  [isLoading]="isLoading()" [noResults]="noResults()" [hasSearchQuery]="hasSearchQuery()" [currentPage]="currentPage()"
+  [totalPages]="totalPages()" [errorMessage]="errorMessage()" (pageChange)="goToPage($event)" (back)="goBack()" />

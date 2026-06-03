@@ -1,0 +1,36 @@
+<div class="favorite-recipes">
+  <div class="btn-wrap">
+    <button class="back-btn" type="button" (click)="goBack()"><i class="fa-solid fa-arrow-left"></i>Back</button>
+    <button class="clear-btn" type="button" (click)="clearAllFavorites()">Clear all</button>
+  </div>
+
+  @if (favoriteIds().length === 0) {
+  <div class="not-found-result">
+    <h1>Your favorite recipes will be here</h1>
+  </div>
+  } @else if (isLoading()) {
+  <div class="recipes-list">
+    @for (_ of skeletonCards; track $index) {
+    <app-recipe-card-skeleton></app-recipe-card-skeleton>
+    }
+  </div>
+  } @else if (errorMessage()) {
+  <div class="not-found-result">
+    <h1>{{ errorMessage() }}</h1>
+    <p>Please try again later</p>
+  </div>
+  } @else if (noResults()) {
+  <div class="not-found-result">
+    <h1>No recipes found.</h1>
+    <p>Please try another term</p>
+  </div>
+  } @else {
+  <h1 class="favorite-recipes__title">Favorite Recipes</h1>
+
+  <div class="recipes-list">
+    @for (recipe of filteredRecipes(); track recipe.id) {
+    <app-recipe-card [recipe]="recipe" variant="full"></app-recipe-card>
+    }
+  </div>
+  }
+</div>

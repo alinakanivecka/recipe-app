@@ -1,0 +1,61 @@
+<div class="header">
+  <h2 class="title">Filters</h2>
+  <button class="clear-btn" type="button" (click)="clearFilters()">Clear all</button>
+</div>
+
+<div class="filters">
+  <div class="filter-checkbox">
+    <h3 class="filter-title">Meal Type</h3>
+
+    <div class="checkbox-row">
+      <mat-radio-group class="radio-group" [value]="selectedMealType()" (change)="selectedMealType.set($event.value)">
+        @for (cat of categories(); track cat.type) {
+        <mat-radio-button [value]="cat.type">
+          {{cat.name}}
+        </mat-radio-button>
+        }
+      </mat-radio-group>
+    </div>
+
+  </div>
+
+  <div class="filter-checkbox">
+    <h3 class="filter-title">Diet</h3>
+    @for (diet of diets(); track diet.type) {
+    <label class="checkbox-row" [for]="'diet-' + diet.type">
+      <input [id]="'diet-' + diet.type" type="checkbox" [checked]="selectedDietTypes().includes(diet.type)"
+        (change)="toggleFilter(selectedDietTypes, diet.type)">
+      {{diet.name}}
+    </label>
+    }
+  </div>
+
+  <div class="cooking-time__slider">
+    <h3 class="filter-title">Cooking Time</h3>
+
+    <mat-slider class="time-slider" min="0" max="120" step="5">
+      <input matSliderThumb [value]="selectedMaxReadyTime()" (input)="selectedMaxReadyTime.set(+slider.value)"
+        #slider />
+    </mat-slider>
+
+    <div class="slider-range">
+      <span>0 min</span>
+      <span>{{ selectedMaxReadyTime() }} min</span>
+    </div>
+  </div>
+
+  <div class="difficulty-filter">
+    <h3 class="filter-title">Difficulty</h3>
+
+    <div class="difficulty-btns">
+      <button class="difficulty-btn" type="button" [class.active]="selectedDifficulty() === 'easy'"
+        (click)="selectedDifficulty.set('easy')">Easy</button>
+      <button class="difficulty-btn" type="button" [class.active]="selectedDifficulty() === 'medium'"
+        (click)="selectedDifficulty.set('medium')">Medium</button>
+      <button class="difficulty-btn" type="button" [class.active]="selectedDifficulty() === 'hard'"
+        (click)="selectedDifficulty.set('hard')">Hard</button>
+    </div>
+  </div>
+
+  <button class="confirm-bnt" type="button" (click)="applyFilters()">Apply Filters</button>
+</div>

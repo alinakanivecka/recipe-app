@@ -1,0 +1,77 @@
+.recipe-card-skeleton {
+  border-radius: 1rem;
+  width: 100%;
+  background: #fff;
+  border: 1px solid #ece3e3;
+  cursor: pointer;
+}
+
+.skeleton {
+  background: linear-gradient(90deg, #eee 25%, #f6f6f6 50%, #eee 75%);
+  background-size: 200% 100%;
+  animation: loading 1.4s infinite;
+  border-radius: 0.5rem;
+}
+
+.image {
+  width: 100%;
+  height: 12.5rem;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  overflow: hidden;
+  background: #e1e1e1;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  box-shadow: 0 8px 14px rgba(0, 0, 0, 0.07);
+  min-height: 5.5rem;
+}
+
+.title {
+  width: 90%;
+  height: 1.2rem;
+}
+
+.preparing {
+  display: flex;
+  justify-content: space-between;
+}
+
+.meta {
+  display: flex;
+  gap: 0.3rem;
+  width: 100%;
+}
+
+.prep {
+  width: 50%;
+  height: 0.9rem;
+}
+
+@keyframes loading {
+  from {
+    background-position: 200% 0;
+  }
+
+  to {
+    background-position: -200% 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .image {
+    height: 8.5rem;
+  }
+
+  .info {
+    gap: 0.5rem;
+    padding: 0.7rem 0.5rem;
+    min-height: auto;
+  }
+}

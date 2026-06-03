@@ -1,0 +1,80 @@
+<section class="hero">
+  <img class="hero-img hero-img--desktop" src="assets/hero-icon.png" alt="hero-icon">
+  <img class="hero-img hero-img--mobile" src="assets/hero-mobile.png" alt="hero-icon">
+
+  <div class="hero-content">
+    <h1 class="hero-content__title">Find recipes <br> for every taste</h1>
+    <p class="hero-content__info">Discover thousands of recipes and cook something amazing.</p>
+    <button class="hero-btn" [routerLink]="['/recipes']" type="button">Explore Recipes</button>
+  </div>
+</section>
+
+<section class="popular-recipes">
+  <div class="section-wrap">
+    <p class="section-title">Popular Recipes</p>
+    <div class="carousel-stepper">
+      <button type="button" (click)="scrollCarousel(recipesCarousel, 'left')"><i
+          class="fa-solid fa-chevron-left"></i></button>
+      <button type="button" (click)=" scrollCarousel(recipesCarousel, 'right')"> <i
+          class="fa-solid fa-chevron-right"></i></button>
+    </div>
+  </div>
+  <div class="carousel" #recipesCarousel>
+    @if (isLoading()) {
+    @for (_ of skeletonCards; track $index) {
+    <app-recipe-card-skeleton></app-recipe-card-skeleton>
+    }
+    } @else {
+    @for (recipe of recipes(); track recipe.id) {
+    <app-recipe-card [recipe]="recipe" variant="compact"></app-recipe-card>
+    }
+    }
+  </div>
+</section>
+
+<section class="categories">
+  <div class="section-wrap">
+    <p class="section-title">Categories</p>
+    <div class="carousel-stepper">
+      <button type="button" (click)="scrollCarousel(categoriesCarousel, 'left')"><i
+          class="fa-solid fa-chevron-left"></i></button>
+      <button type="button" (click)="scrollCarousel(categoriesCarousel, 'right')"> <i
+          class="fa-solid fa-chevron-right"></i></button>
+    </div>
+  </div>
+  <div class="carousel" #categoriesCarousel>
+    @for (cat of categories(); track cat.name) {
+    <button class="category" type="button" [routerLink]="['/recipes/category', cat.type]"
+      [style.backgroundColor]="cat.color">
+      <img [src]="cat.icon" [alt]="cat.name">
+      <p class="category-title">{{cat.name}}</p>
+      <p class="category-count">{{cat.count}} recipes</p>
+    </button>
+    }
+  </div>
+</section>
+
+<section class="cuisines">
+  <div class="section-wrap">
+    <p class="section-title">Cuisines</p>
+    <div class="carousel-stepper">
+      <button type="button" (click)="scrollCarousel(cuisinesCarousel, 'left')"><i
+          class="fa-solid fa-chevron-left"></i></button>
+      <button type="button" (click)="scrollCarousel(cuisinesCarousel, 'right')"> <i
+          class="fa-solid fa-chevron-right"></i></button>
+    </div>
+  </div>
+  <div class="carousel" #cuisinesCarousel>
+    @for (cuisine of cuisines(); track cuisine.name) {
+    <button class="cuisine" type="button" [routerLink]="['/recipes/cuisine', cuisine.type]">
+      <div class="img-container">
+        <img [src]="cuisine.img" [alt]="cuisine.name" loading="lazy" decoding="async">
+      </div>
+      <div class="info-container">
+        <p class="cuisine-title">{{cuisine.name}}</p>
+        <p class="cuisine-count">{{cuisine.count}} recipes</p>
+      </div>
+    </button>
+    }
+  </div>
+</section>

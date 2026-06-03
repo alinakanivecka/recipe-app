@@ -1,0 +1,18 @@
+<div class="search">
+  <div class="search-wrap">
+
+    <input class="input" type="text" placeholder="Search recipes..." [value]="search()" (input)="onInput($event)"
+      (keyup.enter)="onSearch()" aria-label="Search recipes">
+
+    @if (search()) {
+    <button class="clear-btn" (click)="clearSearch()" type="button" aria-label="Clear search">x</button>
+    }
+
+    <app-dropdown [options]="searchOptions" [selectedValue]="searchService.searchMode()"
+      (selected)="selectSearchMode($event)"></app-dropdown>
+
+  </div>
+
+  <button class="search-btn" type="button" (click)="onSearch()"><i class="fa-solid fa-magnifying-glass"></i></button>
+
+</div>

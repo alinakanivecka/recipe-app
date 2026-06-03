@@ -12,7 +12,7 @@ import { SearchService } from './search.service';
 export class RecipeApiService {
   searchService = inject(SearchService);
   private http = inject(HttpClient);
-  private baseUrl = 'https://api.spoonacular.com/recipes';
+  private baseUrl = 'https://api.spoonacular./recipes';
   private apiKey = environment.spoonacularApiKey;
 
   getApiRecipes(filters: FiltersTypes): Observable<ApiResponse> {

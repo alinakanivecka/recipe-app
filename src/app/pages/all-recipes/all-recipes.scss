@@ -91,6 +91,7 @@
           transform: translateY(100%);
           transition: transform 0.28s ease;
           overflow-y: auto;
+          overflow-x: hidden;
         }
 
         .filter-side.open {

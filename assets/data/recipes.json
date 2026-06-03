@@ -1,0 +1,2775 @@
+{
+  "results": [
+    {
+      "id": 101,
+      "title": "Margherita Pizza",
+      "image": "https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?w=600&h=400&fit=crop",
+      "imageType": "jpg",
+      "readyInMinutes": 35,
+      "servings": 4,
+      "summary": "<b>Margherita Pizza</b> is a classic Italian pizza topped with tomato sauce, mozzarella, and fresh basil.",
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "dishTypes": [
+        "dinner",
+        "lunch"
+      ],
+      "cuisines": [
+        "italian"
+      ],
+      "diets": [
+        "vegetarian"
+      ],
+      "aggregateLikes": 740,
+      "healthScore": 70,
+      "extendedIngredients": [
+        {
+          "id": 1,
+          "name": "pizza dough",
+          "original": "1 pizza dough",
+          "amount": 1,
+          "unit": ""
+        },
+        {
+          "id": 2,
+          "name": "tomato sauce",
+          "original": "150ml tomato sauce",
+          "amount": 150,
+          "unit": "ml"
+        },
+        {
+          "id": 3,
+          "name": "mozzarella",
+          "original": "200g mozzarella cheese",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "id": 4,
+          "name": "basil",
+          "original": "fresh basil leaves",
+          "amount": 1,
+          "unit": "handful"
+        },
+        {
+          "id": 5,
+          "name": "olive oil",
+          "original": "2 tbsp olive oil",
+          "amount": 2,
+          "unit": "tbsp"
+        }
+      ],
+      "analyzedInstructions": [
+        {
+          "name": "",
+          "steps": [
+            {
+              "number": 1,
+              "step": "Preheat the oven to 220°C."
+            },
+            {
+              "number": 2,
+              "step": "Roll out the pizza dough."
+            },
+            {
+              "number": 3,
+              "step": "Spread tomato sauce over the dough."
+            },
+            {
+              "number": 4,
+              "step": "Add mozzarella and basil."
+            },
+            {
+              "number": 5,
+              "step": "Bake for 12–15 minutes until golden."
+            }
+          ]
+        }
+      ],
+      "nutrition": {
+        "nutrients": [
+          {
+            "name": "Calories",
+            "amount": 610,
+            "unit": "kcal"
+          },
+          {
+            "name": "Protein",
+            "amount": 22,
+            "unit": "g"
+          },
+          {
+            "name": "Fat",
+            "amount": 21,
+            "unit": "g"
+          },
+          {
+            "name": "Carbohydrates",
+            "amount": 74,
+            "unit": "g"
+          },
+          {
+            "name": "Fiber",
+            "amount": 3,
+            "unit": "g"
+          }
+        ]
+      }
+    },
+    {
+      "id": 102,
+      "title": "Blueberry Pancakes",
+      "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93?w=600&h=400&fit=crop",
+      "imageType": "jpg",
+      "readyInMinutes": 25,
+      "servings": 2,
+      "summary": "<b>Blueberry Pancakes</b> are fluffy breakfast pancakes filled with fresh blueberries and served with maple syrup.",
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "dishTypes": [
+        "breakfast",
+        "lunch"
+      ],
+      "cuisines": [
+        "american"
+      ],
+      "diets": [
+        "vegetarian"
+      ],
+      "aggregateLikes": 412,
+      "healthScore": 63,
+      "extendedIngredients": [
+        {
+          "id": 6,
+          "name": "flour",
+          "original": "150g all-purpose flour",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "id": 7,
+          "name": "milk",
+          "original": "200ml milk",
+          "amount": 200,
+          "unit": "ml"
+        },
+        {
+          "id": 8,
+          "name": "egg",
+          "original": "1 large egg",
+          "amount": 1,
+          "unit": ""
+        },
+        {
+          "id": 9,
+          "name": "blueberries",
+          "original": "1 cup fresh blueberries",
+          "amount": 1,
+          "unit": "cup"
+        },
+        {
+          "id": 10,
+          "name": "maple syrup",
+          "original": "maple syrup for serving",
+          "amount": 2,
+          "unit": "tbsp"
+        }
+      ],
+      "analyzedInstructions": [
+        {
+          "name": "",
+          "steps": [
+            {
+              "number": 1,
+              "step": "Mix flour, baking powder, milk, and egg."
+            },
+            {
+              "number": 2,
+              "step": "Fold in blueberries."
+            },
+            {
+              "number": 3,
+              "step": "Heat a non-stick pan."
+            },
+            {
+              "number": 4,
+              "step": "Cook pancakes until bubbles appear."
+            },
+            {
+              "number": 5,
+              "step": "Flip and cook until golden."
+            }
+          ]
+        }
+      ],
+      "nutrition": {
+        "nutrients": [
+          {
+            "name": "Calories",
+            "amount": 430,
+            "unit": "kcal"
+          },
+          {
+            "name": "Protein",
+            "amount": 12,
+            "unit": "g"
+          },
+          {
+            "name": "Fat",
+            "amount": 11,
+            "unit": "g"
+          },
+          {
+            "name": "Carbohydrates",
+            "amount": 70,
+            "unit": "g"
+          },
+          {
+            "name": "Fiber",
+            "amount": 5,
+            "unit": "g"
+          }
+        ]
+      }
+    },
+    {
+      "id": 103,
+      "title": "Chicken Caesar Salad",
+      "image": "https://images.unsplash.com/photo-1546793665-c74683f339c1?w=600&h=400&fit=crop",
+      "imageType": "jpg",
+      "readyInMinutes": 20,
+      "servings": 2,
+      "summary": "<b>Chicken Caesar Salad</b> is a crisp salad with romaine lettuce, grilled chicken, parmesan, croutons, and creamy dressing.",
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "dishTypes": [
+        "lunch",
+        "salad"
+      ],
+      "cuisines": [
+        "american"
+      ],
+      "diets": [],
+      "aggregateLikes": 321,
+      "healthScore": 75,
+      "extendedIngredients": [
+        {
+          "id": 11,
+          "name": "romaine lettuce",
+          "original": "1 romaine lettuce head",
+          "amount": 1,
+          "unit": ""
+        },
+        {
+          "id": 12,
+          "name": "chicken breast",
+          "original": "250g grilled chicken breast",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "id": 13,
+          "name": "parmesan",
+          "original": "40g parmesan cheese",
+          "amount": 40,
+          "unit": "g"
+        },
+        {
+          "id": 14,
+          "name": "croutons",
+          "original": "1 cup croutons",
+          "amount": 1,
+          "unit": "cup"
+        },
+        {
+          "id": 15,
+          "name": "caesar dressing",
+          "original": "3 tbsp Caesar dressing",
+          "amount": 3,
+          "unit": "tbsp"
+        }
+      ],
+      "analyzedInstructions": [
+        {
+          "name": "",
+          "steps": [
+            {
+              "number": 1,
+              "step": "Wash and chop the lettuce."
+            },
+            {
+              "number": 2,
+              "step": "Slice grilled chicken."
+            },
+            {
+              "number": 3,
+              "step": "Add parmesan and croutons."
+            },
+            {
+              "number": 4,
+              "step": "Toss with Caesar dressing and serve."
+            }
+          ]
+        }
+      ],
+      "nutrition": {
+        "nutrients": [
+          {
+            "name": "Calories",
+            "amount": 390,
+            "unit": "kcal"
+          },
+          {
+            "name": "Protein",
+            "amount": 32,
+            "unit": "g"
+          },
+          {
+            "name": "Fat",
+            "amount": 21,
+            "unit": "g"
+          },
+          {
+            "name": "Carbohydrates",
+            "amount": 19,
+            "unit": "g"
+          },
+          {
+            "name": "Fiber",
+            "amount": 4,
+            "unit": "g"
+          }
+        ]
+      }
+    },
+    {
+      "id": 104,
+      "title": "Tomato Basil Soup",
+      "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600&h=400&fit=crop",
+      "imageType": "jpg",
+      "readyInMinutes": 40,
+      "servings": 4,
+      "summary": "<b>Tomato Basil Soup</b> is a warm vegan soup made with tomatoes, garlic, and fresh basil.",
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "dishTypes": [
+        "lunch",
+        "soup"
+      ],
+      "cuisines": [
+        "italian"
+      ],
+      "diets": [
+        "vegetarian",
+        "vegan",
+        "gluten free",
+        "dairy free"
+      ],
+      "aggregateLikes": 250,
+      "healthScore": 80,
+      "extendedIngredients": [
+        {
+          "id": 16,
+          "name": "tomatoes",
+          "original": "800g ripe tomatoes",
+          "amount": 800,
+          "unit": "g"
+        },
+        {
+          "id": 17,
+          "name": "onion",
+          "original": "1 medium onion, chopped",
+          "amount": 1,
+          "unit": ""
+        },
+        {
+          "id": 18,
+          "name": "garlic",
+          "original": "3 garlic cloves",
+          "amount": 3,
+          "unit": "cloves"
+        },
+        {
+          "id": 19,
+          "name": "vegetable broth",
+          "original": "500ml vegetable broth",
+          "amount": 500,
+          "unit": "ml"
+        },
+        {
+          "id": 20,
+          "name": "basil",
+          "original": "fresh basil leaves",
+          "amount": 1,
+          "unit": "handful"
+        }
+      ],
+      "analyzedInstructions": [
+        {
+          "name": "",
+          "steps": [
+            {
+              "number": 1,
+              "step": "Sauté onion and garlic in olive oil."
+            },
+            {
+              "number": 2,
+              "step": "Add tomatoes and vegetable broth."
+            },
+            {
+              "number": 3,
+              "step": "Simmer for 25 minutes."
+            },
+            {
+              "number": 4,
+              "step": "Blend until smooth."
+            },
+            {
+              "number": 5,
+              "step": "Top with fresh basil and serve."
+            }
+          ]
+        }
+      ],
+      "nutrition": {
+        "nutrients": [
+          {
+            "name": "Calories",
+            "amount": 190,
+            "unit": "kcal"
+          },
+          {
+            "name": "Protein",
+            "amount": 5,
+            "unit": "g"
+          },
+          {
+            "name": "Fat",
+            "amount": 8,
+            "unit": "g"
+          },
+          {
+            "name": "Carbohydrates",
+            "amount": 27,
+            "unit": "g"
+          },
+          {
+            "name": "Fiber",
+            "amount": 6,
+            "unit": "g"
+          }
+        ]
+      }
+    },
+    {
+      "id": 105,
+      "title": "Beef Burger",
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&h=400&fit=crop",
+      "imageType": "jpg",
+      "readyInMinutes": 30,
+      "servings": 2,
+      "summary": "<b>Beef Burger</b> is a juicy homemade burger with cheddar cheese, lettuce, tomato, and a toasted bun.",
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "dishTypes": [
+        "dinner",
+        "lunch"
+      ],
+      "cuisines": [
+        "american"
+      ],
+      "diets": [],
+      "aggregateLikes": 880,
+      "healthScore": 54,
+      "extendedIngredients": [
+        {
+          "id": 21,
+          "name": "ground beef",
+          "original": "300g ground beef",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "id": 22,
+          "name": "burger buns",
+          "original": "2 burger buns",
+          "amount": 2,
+          "unit": ""
+        },
+        {
+          "id": 23,
+          "name": "cheddar cheese",
+          "original": "2 slices cheddar cheese",
+          "amount": 2,
+          "unit": "slices"
+        },
+        {
+          "id": 24,
+          "name": "lettuce",
+          "original": "2 lettuce leaves",
+          "amount": 2,
+          "unit": "leaves"
+        },
+        {
+          "id": 25,
+          "name": "tomato",
+          "original": "1 tomato, sliced",
+          "amount": 1,
+          "unit": ""
+        }
+      ],
+      "analyzedInstructions": [
+        {
+          "name": "",
+          "steps": [
+            {
+              "number": 1,
+              "step": "Shape beef into patties."
+            },
+            {
+              "number": 2,
+              "step": "Season with salt and pepper."
+            },
+            {
+              "number": 3,
+              "step": "Cook patties in a hot pan."
+            },
+            {
+              "number": 4,
+              "step": "Add cheese and let it melt."
+            },
+            {
+              "number": 5,
+              "step": "Assemble burgers with vegetables and buns."
+            }
+          ]
+        }
+      ],
+      "nutrition": {
+        "nutrients": [
+          {
+            "name": "Calories",
+            "amount": 760,
+            "unit": "kcal"
+          },
+          {
+            "name": "Protein",
+            "amount": 38,
+            "unit": "g"
+          },
+          {
+            "name": "Fat",
+            "amount": 42,
+            "unit": "g"
+          },
+          {
+            "name": "Carbohydrates",
+            "amount": 54,
+            "unit": "g"
+          },
+          {
+            "name": "Fiber",
+            "amount": 3,
+            "unit": "g"
+          }
+        ]
+      }
+    },
+    {
+      "id": 106,
+      "title": "Chicken Alfredo",
+      "image": "https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea?w=600&h=400&fit=crop",
+      "imageType": "jpg",
+      "readyInMinutes": 35,
+      "servings": 3,
+      "summary": "<b>Chicken Alfredo</b> is a creamy Italian-inspired pasta dish with grilled chicken, parmesan, and rich Alfredo sauce.",
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "dishTypes": [
+        "dinner",
+        "lunch"
+      ],
+      "cuisines": [
+        "italian"
+      ],
+      "diets": [],
+      "aggregateLikes": 652,
+      "healthScore": 60,
+      "extendedIngredients": [
+        {
+          "id": 26,
+          "name": "fettuccine pasta",
+          "original": "250g fettuccine pasta",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "id": 27,
+          "name": "chicken breast",
+          "original": "300g chicken breast",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "id": 28,
+          "name": "heavy cream",
+          "original": "200ml heavy cream",
+          "amount": 200,
+          "unit": "ml"
+        },
+        {
+          "id": 29,
+          "name": "parmesan",
+          "original": "60g parmesan cheese",
+          "amount": 60,
+          "unit": "g"
+        },
+        {
+          "id": 30,
+          "name": "garlic",
+          "original": "2 garlic cloves, minced",
+          "amount": 2,
+          "unit": "cloves"
+        }
+      ],
+      "analyzedInstructions": [
+        {
+          "name": "",
+          "steps": [
+            {
+              "number": 1,
+              "step": "Cook pasta until al dente."
+            },
+            {
+              "number": 2,
+              "step": "Season and grill chicken breast."
+            },
+            {
+              "number": 3,
+              "step": "Sauté garlic in butter."
+            },
+            {
+              "number": 4,
+              "step": "Add cream and parmesan to make sauce."
+            },
+            {
+              "number": 5,
+              "step": "Combine pasta, sauce, and sliced chicken."
+            }
+          ]
+        }
+      ],
+      "nutrition": {
+        "nutrients": [
+          {
+            "name": "Calories",
+            "amount": 670,
+            "unit": "kcal"
+          },
+          {
+            "name": "Protein",
+            "amount": 44,
+            "unit": "g"
+          },
+          {
+            "name": "Fat",
+            "amount": 31,
+            "unit": "g"
+          },
+          {
+            "name": "Carbohydrates",
+            "amount": 55,
+            "unit": "g"
+          },
+          {
+            "name": "Fiber",
+            "amount": 3,
+            "unit": "g"
+          }
+        ]
+      }
+    },
+    {
+      "id": 107,
+      "title": "Berry Smoothie Bowl",
+      "image": "https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea?w=600&h=400&fit=crop",
+      "imageType": "jpg",
+      "readyInMinutes": 10,
+      "servings": 1,
+      "summary": "<b>Berry Smoothie Bowl</b> is a refreshing breakfast bowl with berries, banana, yogurt, and crunchy granola.",
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": false,
+      "dishTypes": [
+        "breakfast",
+        "lunch"
+      ],
+      "cuisines": [
+        "american"
+      ],
+      "diets": [
+        "vegetarian",
+        "gluten free"
+      ],
+      "aggregateLikes": 220,
+      "healthScore": 95,
+      "extendedIngredients": [
+        {
+          "id": 31,
+          "name": "mixed berries",
+          "original": "1 cup frozen mixed berries",
+          "amount": 1,
+          "unit": "cup"
+        },
+        {
+          "id": 32,
+          "name": "banana",
+          "original": "1 ripe banana",
+          "amount": 1,
+          "unit": ""
+        },
+        {
+          "id": 33,
+          "name": "Greek yogurt",
+          "original": "150g Greek yogurt",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "id": 34,
+          "name": "granola",
+          "original": "40g gluten-free granola",
+          "amount": 40,
+          "unit": "g"
+        },
+        {
+          "id": 35,
+          "name": "honey",
+          "original": "1 tsp honey",
+          "amount": 1,
+          "unit": "tsp"
+        }
+      ],
+      "analyzedInstructions": [
+        {
+          "name": "",
+          "steps": [
+            {
+              "number": 1,
+              "step": "Blend berries, banana, and yogurt."
+            },
+            {
+              "number": 2,
+              "step": "Pour smoothie into a bowl."
+            },
+            {
+              "number": 3,
+              "step": "Top with granola and honey."
+            },
+            {
+              "number": 4,
+              "step": "Serve immediately."
+            }
+          ]
+        }
+      ],
+      "nutrition": {
+        "nutrients": [
+          {
+            "name": "Calories",
+            "amount": 340,
+            "unit": "kcal"
+          },
+          {
+            "name": "Protein",
+            "amount": 15,
+            "unit": "g"
+          },
+          {
+            "name": "Fat",
+            "amount": 8,
+            "unit": "g"
+          },
+          {
+            "name": "Carbohydrates",
+            "amount": 58,
+            "unit": "g"
+          },
+          {
+            "name": "Fiber",
+            "amount": 9,
+            "unit": "g"
+          }
+        ]
+      }
+    },
+    {
+      "id": 108,
+      "title": "Salmon Sushi Rolls",
+      "image": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=600&h=400&fit=crop",
+      "imageType": "jpg",
+      "readyInMinutes": 50,
+      "servings": 4,
+      "summary": "<b>Salmon Sushi Rolls</b> are homemade Japanese sushi rolls filled with salmon, avocado, cucumber, and sushi rice.",
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "dishTypes": [
+        "lunch"
+      ],
+      "cuisines": [
+        "japanese"
+      ],
+      "diets": [
+        "dairy free"
+      ],
+      "aggregateLikes": 540,
+      "healthScore": 82,
+      "extendedIngredients": [
+        {
+          "id": 36,
+          "name": "sushi rice",
+          "original": "300g cooked sushi rice",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "id": 37,
+          "name": "nori sheets",
+          "original": "4 nori sheets",
+          "amount": 4,
+          "unit": ""
+        },
+        {
+          "id": 38,
+          "name": "salmon",
+          "original": "200g fresh salmon",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "id": 39,
+          "name": "avocado",
+          "original": "1 avocado, sliced",
+          "amount": 1,
+          "unit": ""
+        },
+        {
+          "id": 40,
+          "name": "cucumber",
+          "original": "1 cucumber, sliced",
+          "amount": 1,
+          "unit": ""
+        }
+      ],
+      "analyzedInstructions": [
+        {
+          "name": "",
+          "steps": [
+            {
+              "number": 1,
+              "step": "Place nori sheet on a bamboo mat."
+            },
+            {
+              "number": 2,
+              "step": "Spread sushi rice over the nori."
+            },
+            {
+              "number": 3,
+              "step": "Add salmon, avocado, and cucumber."
+            },
+            {
+              "number": 4,
+              "step": "Roll tightly and slice into pieces."
+            }
+          ]
+        }
+      ],
+      "nutrition": {
+        "nutrients": [
+          {
+            "name": "Calories",
+            "amount": 410,
+            "unit": "kcal"
+          },
+          {
+            "name": "Protein",
+            "amount": 24,
+            "unit": "g"
+          },
+          {
+            "name": "Fat",
+            "amount": 14,
+            "unit": "g"
+          },
+          {
+            "name": "Carbohydrates",
+            "amount": 49,
+            "unit": "g"
+          },
+          {
+            "name": "Fiber",
+            "amount": 5,
+            "unit": "g"
+          }
+        ]
+      }
+    },
+    {
+      "id": 109,
+      "title": "Greek Salad",
+      "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&h=400&fit=crop",
+      "imageType": "jpg",
+      "readyInMinutes": 15,
+      "servings": 2,
+      "summary": "<b>Greek Salad</b> is a refreshing Mediterranean salad with feta cheese, olives, cucumber, and tomatoes.",
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": false,
+      "dishTypes": [
+        "lunch",
+        "salad"
+      ],
+      "cuisines": [
+        "greek",
+        "mediterranean"
+      ],
+      "diets": [
+        "vegetarian",
+        "gluten free"
+      ],
+      "aggregateLikes": 310,
+      "healthScore": 88,
+      "extendedIngredients": [
+        {
+          "id": 41,
+          "name": "cucumber",
+          "original": "1 cucumber, chopped",
+          "amount": 1,
+          "unit": ""
+        },
+        {
+          "id": 42,
+          "name": "tomatoes",
+          "original": "2 tomatoes, chopped",
+          "amount": 2,
+          "unit": ""
+        },
+        {
+          "id": 43,
+          "name": "feta cheese",
+          "original": "100g feta cheese",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "id": 44,
+          "name": "olives",
+          "original": "1/2 cup black olives",
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        {
+          "id": 45,
+          "name": "olive oil",
+          "original": "2 tbsp olive oil",
+          "amount": 2,
+          "unit": "tbsp"
+        }
+      ],
+      "analyzedInstructions": [
+        {
+          "name": "",
+          "steps": [
+            {
+              "number": 1,
+              "step": "Chop cucumber and tomatoes."
+            },
+            {
+              "number": 2,
+              "step": "Add feta cheese and olives."
+            },
+            {
+              "number": 3,
+              "step": "Drizzle with olive oil."
+            },
+            {
+              "number": 4,
+              "step": "Toss gently and serve."
+            }
+          ]
+        }
+      ],
+      "nutrition": {
+        "nutrients": [
+          {
+            "name": "Calories",
+            "amount": 260,
+            "unit": "kcal"
+          },
+          {
+            "name": "Protein",
+            "amount": 9,
+            "unit": "g"
+          },
+          {
+            "name": "Fat",
+            "amount": 18,
+            "unit": "g"
+          },
+          {
+            "name": "Carbohydrates",
+            "amount": 15,
+            "unit": "g"
+          },
+          {
+            "name": "Fiber",
+            "amount": 4,
+            "unit": "g"
+          }
+        ]
+      }
+    },
+    {
+      "id": 110,
+      "title": "Chocolate Brownies",
+      "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=600&h=400&fit=crop",
+      "imageType": "jpg",
+      "readyInMinutes": 45,
+      "servings": 8,
+      "summary": "<b>Chocolate Brownies</b> are rich and fudgy chocolate squares made with cocoa powder and dark chocolate.",
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "dishTypes": [
+        "dessert",
+        "lunch"
+      ],
+      "cuisines": [
+        "american"
+      ],
+      "diets": [
+        "vegetarian"
+      ],
+      "aggregateLikes": 990,
+      "healthScore": 42,
+      "extendedIngredients": [
+        {
+          "id": 46,
+          "name": "dark chocolate",
+          "original": "200g dark chocolate",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "id": 47,
+          "name": "butter",
+          "original": "120g butter",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "id": 48,
+          "name": "sugar",
+          "original": "180g sugar",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "id": 49,
+          "name": "eggs",
+          "original": "3 eggs",
+          "amount": 3,
+          "unit": ""
+        },
+        {
+          "id": 50,
+          "name": "flour",
+          "original": "100g flour",
+          "amount": 100,
+          "unit": "g"
+        }
+      ],
+      "analyzedInstructions": [
+        {
+          "name": "",
+          "steps": [
+            {
+              "number": 1,
+              "step": "Melt chocolate and butter together."
+            },
+            {
+              "number": 2,
+              "step": "Whisk eggs and sugar."
+            },
+            {
+              "number": 3,
+              "step": "Mix in flour and chocolate mixture."
+            },
+            {
+              "number": 4,
+              "step": "Pour into a baking tray."
+            },
+            {
+              "number": 5,
+              "step": "Bake for 25–30 minutes."
+            }
+          ]
+        }
+      ],
+      "nutrition": {
+        "nutrients": [
+          {
+            "name": "Calories",
+            "amount": 520,
+            "unit": "kcal"
+          },
+          {
+            "name": "Protein",
+            "amount": 7,
+            "unit": "g"
+          },
+          {
+            "name": "Fat",
+            "amount": 30,
+            "unit": "g"
+          },
+          {
+            "name": "Carbohydrates",
+            "amount": 58,
+            "unit": "g"
+          },
+          {
+            "name": "Fiber",
+            "amount": 4,
+            "unit": "g"
+          }
+        ]
+      }
+    },
+    {
+      "id": 111,
+      "title": "Grilled Salmon",
+      "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=600&h=400&fit=crop",
+      "imageType": "jpg",
+      "readyInMinutes": 25,
+      "servings": 2,
+      "summary": "<b>Grilled Salmon</b> is a healthy seafood dinner served with lemon, herbs, and roasted vegetables.",
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "dishTypes": [
+        "dinner",
+        "lunch"
+      ],
+      "cuisines": [
+        "mediterranean"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "aggregateLikes": 420,
+      "healthScore": 94,
+      "extendedIngredients": [
+        {
+          "id": 51,
+          "name": "salmon fillets",
+          "original": "2 salmon fillets",
+          "amount": 2,
+          "unit": ""
+        },
+        {
+          "id": 52,
+          "name": "lemon",
+          "original": "1 lemon, sliced",
+          "amount": 1,
+          "unit": ""
+        },
+        {
+          "id": 53,
+          "name": "olive oil",
+          "original": "1 tbsp olive oil",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "id": 54,
+          "name": "garlic",
+          "original": "2 garlic cloves, minced",
+          "amount": 2,
+          "unit": "cloves"
+        },
+        {
+          "id": 55,
+          "name": "parsley",
+          "original": "fresh parsley",
+          "amount": 1,
+          "unit": "handful"
+        }
+      ],
+      "analyzedInstructions": [
+        {
+          "name": "",
+          "steps": [
+            {
+              "number": 1,
+              "step": "Season salmon with salt, garlic, and lemon."
+            },
+            {
+              "number": 2,
+              "step": "Heat grill pan over medium heat."
+            },
+            {
+              "number": 3,
+              "step": "Grill salmon for 4–5 minutes per side."
+            },
+            {
+              "number": 4,
+              "step": "Serve with parsley and lemon slices."
+            }
+          ]
+        }
+      ],
+      "nutrition": {
+        "nutrients": [
+          {
+            "name": "Calories",
+            "amount": 390,
+            "unit": "kcal"
+          },
+          {
+            "name": "Protein",
+            "amount": 36,
+            "unit": "g"
+          },
+          {
+            "name": "Fat",
+            "amount": 24,
+            "unit": "g"
+          },
+          {
+            "name": "Carbohydrates",
+            "amount": 6,
+            "unit": "g"
+          },
+          {
+            "name": "Fiber",
+            "amount": 1,
+            "unit": "g"
+          }
+        ]
+      }
+    },
+    {
+      "id": 112,
+      "title": "Ramen Noodles",
+      "image": "https://images.unsplash.com/photo-1617093727343-374698b1b08d?w=600&h=400&fit=crop",
+      "imageType": "jpg",
+      "readyInMinutes": 40,
+      "servings": 2,
+      "summary": "<b>Ramen Noodles</b> are comforting Japanese noodles served in a flavorful broth with egg, vegetables, and herbs.",
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "dishTypes": [
+        "lunch",
+        "soup"
+      ],
+      "cuisines": [
+        "japanese"
+      ],
+      "diets": [
+        "dairy free"
+      ],
+      "aggregateLikes": 560,
+      "healthScore": 71,
+      "extendedIngredients": [
+        {
+          "id": 56,
+          "name": "ramen noodles",
+          "original": "200g ramen noodles",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "id": 57,
+          "name": "chicken broth",
+          "original": "700ml chicken broth",
+          "amount": 700,
+          "unit": "ml"
+        },
+        {
+          "id": 58,
+          "name": "egg",
+          "original": "2 boiled eggs",
+          "amount": 2,
+          "unit": ""
+        },
+        {
+          "id": 59,
+          "name": "mushrooms",
+          "original": "100g mushrooms",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "id": 60,
+          "name": "green onions",
+          "original": "2 green onions, sliced",
+          "amount": 2,
+          "unit": ""
+        }
+      ],
+      "analyzedInstructions": [
+        {
+          "name": "",
+          "steps": [
+            {
+              "number": 1,
+              "step": "Heat chicken broth in a pot."
+            },
+            {
+              "number": 2,
+              "step": "Add mushrooms and simmer for 10 minutes."
+            },
+            {
+              "number": 3,
+              "step": "Cook ramen noodles separately."
+            },
+            {
+              "number": 4,
+              "step": "Assemble noodles, broth, eggs, and green onions."
+            }
+          ]
+        }
+      ],
+      "nutrition": {
+        "nutrients": [
+          {
+            "name": "Calories",
+            "amount": 580,
+            "unit": "kcal"
+          },
+          {
+            "name": "Protein",
+            "amount": 25,
+            "unit": "g"
+          },
+          {
+            "name": "Fat",
+            "amount": 18,
+            "unit": "g"
+          },
+          {
+            "name": "Carbohydrates",
+            "amount": 78,
+            "unit": "g"
+          },
+          {
+            "name": "Fiber",
+            "amount": 5,
+            "unit": "g"
+          }
+        ]
+      }
+    },
+    {
+      "id": 113,
+      "title": "Avocado Toast",
+      "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=600&h=400&fit=crop",
+      "imageType": "jpg",
+      "readyInMinutes": 10,
+      "servings": 1,
+      "summary": "<b>Avocado Toast</b> is a flavorful recipe with simple ingredients and balanced nutrition.",
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "dishTypes": [
+        "breakfast"
+      ],
+      "cuisines": [
+        "american"
+      ],
+      "diets": [
+        "vegetarian",
+        "gluten free",
+        "dairy free"
+      ],
+      "aggregateLikes": 180,
+      "healthScore": 55,
+      "extendedIngredients": [
+        {
+          "id": 61,
+          "name": "bread",
+          "original": "1 serving bread",
+          "amount": 1,
+          "unit": "serving"
+        },
+        {
+          "id": 62,
+          "name": "avocado",
+          "original": "1 serving avocado",
+          "amount": 1,
+          "unit": "serving"
+        },
+        {
+          "id": 63,
+          "name": "lime",
+          "original": "1 serving lime",
+          "amount": 1,
+          "unit": "serving"
+        },
+        {
+          "id": 64,
+          "name": "chili flakes",
+          "original": "1 serving chili flakes",
+          "amount": 1,
+          "unit": "serving"
+        },
+        {
+          "id": 65,
+          "name": "salt",
+          "original": "1 serving salt",
+          "amount": 1,
+          "unit": "serving"
+        }
+      ],
+      "analyzedInstructions": [
+        {
+          "name": "",
+          "steps": [
+            {
+              "number": 1,
+              "step": "Prepare all ingredients."
+            },
+            {
+              "number": 2,
+              "step": "Cook the main ingredients according to the recipe style."
+            },
+            {
+              "number": 3,
+              "step": "Season to taste."
+            },
+            {
+              "number": 4,
+              "step": "Serve fresh and enjoy."
+            }
+          ]
+        }
+      ],
+      "nutrition": {
+        "nutrients": [
+          {
+            "name": "Calories",
+            "amount": 280,
+            "unit": "kcal"
+          },
+          {
+            "name": "Protein",
+            "amount": 8,
+            "unit": "g"
+          },
+          {
+            "name": "Fat",
+            "amount": 14,
+            "unit": "g"
+          },
+          {
+            "name": "Carbohydrates",
+            "amount": 32,
+            "unit": "g"
+          },
+          {
+            "name": "Fiber",
+            "amount": 7,
+            "unit": "g"
+          }
+        ]
+      }
+    },
+    {
+      "id": 114,
+      "title": "Shrimp Tacos",
+      "image": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=600&h=400&fit=crop",
+      "imageType": "jpg",
+      "readyInMinutes": 25,
+      "servings": 3,
+      "summary": "<b>Shrimp Tacos</b> is a flavorful recipe with simple ingredients and balanced nutrition.",
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "dishTypes": [
+        "dinner"
+      ],
+      "cuisines": [
+        "mexican"
+      ],
+      "diets": [
+        "dairy free"
+      ],
+      "aggregateLikes": 217,
+      "healthScore": 58,
+      "extendedIngredients": [
+        {
+          "id": 66,
+          "name": "shrimp",
+          "original": "1 serving shrimp",
+          "amount": 1,
+          "unit": "serving"
+        },
+        {
+          "id": 67,
+          "name": "corn tortillas",
+          "original": "1 serving corn tortillas",
+          "amount": 1,
+          "unit": "serving"
+        },
+        {
+          "id": 68,
+          "name": "cabbage",
+          "original": "1 serving cabbage",
+          "amount": 1,
+          "unit": "serving"
+        },
+        {
+          "id": 69,
+          "name": "lime",
+          "original": "1 serving lime",
+          "amount": 1,
+          "unit": "serving"
+        },
+        {
+          "id": 70,
+          "name": "avocado",
+          "original": "1 serving avocado",
+          "amount": 1,
+          "unit": "serving"
+        }
+      ],
+      "analyzedInstructions": [
+        {
+          "name": "",
+          "steps": [
+            {
+              "number": 1,
+              "step": "Prepare all ingredients."
+            },
+            {
+              "number": 2,
+              "step": "Cook the main ingredients according to the recipe style."
+            },
+            {
+              "number": 3,
+              "step": "Season to taste."
+            },
+            {
+              "number": 4,
+              "step": "Serve fresh and enjoy."
+            }
+          ]
+        }
+      ],
+      "nutrition": {
+        "nutrients": [
+          {
+            "name": "Calories",
+            "amount": 420,
+            "unit": "kcal"
+          },
+          {
+            "name": "Protein",
+            "amount": 28,
+            "unit": "g"
+          },
+          {
+            "name": "Fat",
+            "amount": 16,
+            "unit": "g"
+          },
+          {
+            "name": "Carbohydrates",
+            "amount": 42,
+            "unit": "g"
+          },
+          {
+            "name": "Fiber",
+            "amount": 6,
+            "unit": "g"
+          }
+        ]
+      }
+    },
+    {
+      "id": 115,
+      "title": "Vegetable Curry",
+      "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=600&h=400&fit=crop",
+      "imageType": "jpg",
+      "readyInMinutes": 35,
+      "servings": 4,
+      "summary": "<b>Vegetable Curry</b> is a flavorful recipe with simple ingredients and balanced nutrition.",
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "dishTypes": [
+        "dinner"
+      ],
+      "cuisines": [
+        "indian"
+      ],
+      "diets": [
+        "vegetarian",
+        "vegan",
+        "gluten free",
+        "dairy free"
+      ],
+      "aggregateLikes": 254,
+      "healthScore": 61,
+      "extendedIngredients": [
+        {
+          "id": 71,
+          "name": "chickpeas",
+          "original": "1 serving chickpeas",
+          "amount": 1,
+          "unit": "serving"
+        },
+        {
+          "id": 72,
+          "name": "coconut milk",
+          "original": "1 serving coconut milk",
+          "amount": 1,
+          "unit": "serving"
+        },
+        {
+          "id": 73,
+          "name": "curry powder",
+          "original": "1 serving curry powder",
+          "amount": 1,
+          "unit": "serving"
+        },
+        {
+          "id": 74,
+          "name": "spinach",
+          "original": "1 serving spinach",
+          "amount": 1,
+          "unit": "serving"
+        },
+        {
+          "id": 75,
+          "name": "tomatoes",
+          "original": "1 serving tomatoes",
+          "amount": 1,
+          "unit": "serving"
+        }
+      ],
+      "analyzedInstructions": [
+        {
+          "name": "",
+          "steps": [
+            {
+              "number": 1,
+              "step": "Prepare all ingredients."
+            },
+            {
+              "number": 2,
+              "step": "Cook the main ingredients according to the recipe style."
+            },
+            {
+              "number": 3,
+              "step": "Season to taste."
+            },
+            {
+              "number": 4,
+              "step": "Serve fresh and enjoy."
+            }
+          ]
+        }
+      ],
+      "nutrition": {
+        "nutrients": [
+          {
+            "name": "Calories",
+            "amount": 480,
+            "unit": "kcal"
+          },
+          {
+            "name": "Protein",
+            "amount": 16,
+            "unit": "g"
+          },
+          {
+            "name": "Fat",
+            "amount": 22,
+            "unit": "g"
+          },
+          {
+            "name": "Carbohydrates",
+            "amount": 54,
+            "unit": "g"
+          },
+          {
+            "name": "Fiber",
+            "amount": 12,
+            "unit": "g"
+          }
+        ]
+      }
+    },
+    {
+      "id": 116,
+      "title": "Miso Soup",
+      "image": "https://images.unsplash.com/photo-1607301406259-dfb186e15de8?w=600&h=400&fit=crop",
+      "imageType": "jpg",
+      "readyInMinutes": 20,
+      "servings": 2,
+      "summary": "<b>Miso Soup</b> is a flavorful recipe with simple ingredients and balanced nutrition.",
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "dishTypes": [
+        "soup"
+      ],
+      "cuisines": [
+        "japanese"
+      ],
+      "diets": [
+        "vegetarian",
+        "vegan",
+        "gluten free",
+        "dairy free"
+      ],
+      "aggregateLikes": 291,
+      "healthScore": 64,
+      "extendedIngredients": [
+        {
+          "id": 76,
+          "name": "miso paste",
+          "original": "1 serving miso paste",
+          "amount": 1,
+          "unit": "serving"
+        },
+        {
+          "id": 77,
+          "name": "tofu",
+          "original": "1 serving tofu",
+          "amount": 1,
+          "unit": "serving"
+        },
+        {
+          "id": 78,
+          "name": "seaweed",
+          "original": "1 serving seaweed",
+          "amount": 1,
+          "unit": "serving"
+        },
+        {
+          "id": 79,
+          "name": "green onions",
+          "original": "1 serving green onions",
+          "amount": 1,
+          "unit": "serving"
+        },
+        {
+          "id": 80,
+          "name": "vegetable broth",
+          "original": "1 serving vegetable broth",
+          "amount": 1,
+          "unit": "serving"
+        }
+      ],
+      "analyzedInstructions": [
+        {
+          "name": "",
+          "steps": [
+            {
+              "number": 1,
+              "step": "Prepare all ingredients."
+            },
+            {
+              "number": 2,
+              "step": "Cook the main ingredients according to the recipe style."
+            },
+            {
+              "number": 3,
+              "step": "Season to taste."
+            },
+            {
+              "number": 4,
+              "step": "Serve fresh and enjoy."
+            }
+          ]
+        }
+      ],
+      "nutrition": {
+        "nutrients": [
+          {
+            "name": "Calories",
+            "amount": 160,
+            "unit": "kcal"
+          },
+          {
+            "name": "Protein",
+            "amount": 12,
+            "unit": "g"
+          },
+          {
+            "name": "Fat",
+            "amount": 7,
+            "unit": "g"
+          },
+          {
+            "name": "Carbohydrates",
+            "amount": 14,
+            "unit": "g"
+          },
+          {
+            "name": "Fiber",
+            "amount": 3,
+            "unit": "g"
+          }
+        ]
+      }
+    },
+    {
+      "id": 117,
+      "title": "French Omelette",
+      "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=600&h=400&fit=crop",
+      "imageType": "jpg",
+      "readyInMinutes": 12,
+      "servings": 1,
+      "summary": "<b>French Omelette</b> is a flavorful recipe with simple ingredients and balanced nutrition.",
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": false,
+      "dishTypes": [
+        "breakfast"
+      ],
+      "cuisines": [
+        "french"
+      ],
+      "diets": [
+        "vegetarian",
+        "gluten free"
+      ],
+      "aggregateLikes": 328,
+      "healthScore": 67,
+      "extendedIngredients": [
+        {
+          "id": 81,
+          "name": "eggs",
+          "original": "1 serving eggs",
+          "amount": 1,
+          "unit": "serving"
+        },
+        {
+          "id": 82,
+          "name": "butter",
+          "original": "1 serving butter",
+          "amount": 1,
+          "unit": "serving"
+        },
+        {
+          "id": 83,
+          "name": "chives",
+          "original": "1 serving chives",
+          "amount": 1,
+          "unit": "serving"
+        },
+        {
+          "id": 84,
+          "name": "salt",
+          "original": "1 serving salt",
+          "amount": 1,
+          "unit": "serving"
+        },
+        {
+          "id": 85,
+          "name": "black pepper",
+          "original": "1 serving black pepper",
+          "amount": 1,
+          "unit": "serving"
+        }
+      ],
+      "analyzedInstructions": [
+        {
+          "name": "",
+          "steps": [
+            {
+              "number": 1,
+              "step": "Prepare all ingredients."
+            },
+            {
+              "number": 2,
+              "step": "Cook the main ingredients according to the recipe style."
+            },
+            {
+              "number": 3,
+              "step": "Season to taste."
+            },
+            {
+              "number": 4,
+              "step": "Serve fresh and enjoy."
+            }
+          ]
+        }
+      ],
+      "nutrition": {
+        "nutrients": [
+          {
+            "name": "Calories",
+            "amount": 310,
+            "unit": "kcal"
+          },
+          {
+            "name": "Protein",
+            "amount": 18,
+            "unit": "g"
+          },
+          {
+            "name": "Fat",
+            "amount": 24,
+            "unit": "g"
+          },
+          {
+            "name": "Carbohydrates",
+            "amount": 2,
+            "unit": "g"
+          },
+          {
+            "name": "Fiber",
+            "amount": 0,
+            "unit": "g"
+          }
+        ]
+      }
+    },
+    {
+      "id": 118,
+      "title": "Pesto Pasta",
+      "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=600&h=400&fit=crop",
+      "imageType": "jpg",
+      "readyInMinutes": 25,
+      "servings": 3,
+      "summary": "<b>Pesto Pasta</b> is a flavorful recipe with simple ingredients and balanced nutrition.",
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "dishTypes": [
+        "lunch"
+      ],
+      "cuisines": [
+        "italian"
+      ],
+      "diets": [
+        "vegetarian"
+      ],
+      "aggregateLikes": 365,
+      "healthScore": 70,
+      "extendedIngredients": [
+        {
+          "id": 86,
+          "name": "pasta",
+          "original": "1 serving pasta",
+          "amount": 1,
+          "unit": "serving"
+        },
+        {
+          "id": 87,
+          "name": "basil pesto",
+          "original": "1 serving basil pesto",
+          "amount": 1,
+          "unit": "serving"
+        },
+        {
+          "id": 88,
+          "name": "parmesan",
+          "original": "1 serving parmesan",
+          "amount": 1,
+          "unit": "serving"
+        },
+        {
+          "id": 89,
+          "name": "cherry tomatoes",
+          "original": "1 serving cherry tomatoes",
+          "amount": 1,
+          "unit": "serving"
+        },
+        {
+          "id": 90,
+          "name": "olive oil",
+          "original": "1 serving olive oil",
+          "amount": 1,
+          "unit": "serving"
+        }
+      ],
+      "analyzedInstructions": [
+        {
+          "name": "",
+          "steps": [
+            {
+              "number": 1,
+              "step": "Prepare all ingredients."
+            },
+            {
+              "number": 2,
+              "step": "Cook the main ingredients according to the recipe style."
+            },
+            {
+              "number": 3,
+              "step": "Season to taste."
+            },
+            {
+              "number": 4,
+              "step": "Serve fresh and enjoy."
+            }
+          ]
+        }
+      ],
+      "nutrition": {
+        "nutrients": [
+          {
+            "name": "Calories",
+            "amount": 560,
+            "unit": "kcal"
+          },
+          {
+            "name": "Protein",
+            "amount": 18,
+            "unit": "g"
+          },
+          {
+            "name": "Fat",
+            "amount": 21,
+            "unit": "g"
+          },
+          {
+            "name": "Carbohydrates",
+            "amount": 74,
+            "unit": "g"
+          },
+          {
+            "name": "Fiber",
+            "amount": 5,
+            "unit": "g"
+          }
+        ]
+      }
+    },
+    {
+      "id": 119,
+      "title": "Chicken Fajitas",
+      "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=600&h=400&fit=crop",
+      "imageType": "jpg",
+      "readyInMinutes": 30,
+      "servings": 4,
+      "summary": "<b>Chicken Fajitas</b> is a flavorful recipe with simple ingredients and balanced nutrition.",
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "dishTypes": [
+        "dinner"
+      ],
+      "cuisines": [
+        "mexican"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "aggregateLikes": 402,
+      "healthScore": 73,
+      "extendedIngredients": [
+        {
+          "id": 91,
+          "name": "chicken breast",
+          "original": "1 serving chicken breast",
+          "amount": 1,
+          "unit": "serving"
+        },
+        {
+          "id": 92,
+          "name": "bell peppers",
+          "original": "1 serving bell peppers",
+          "amount": 1,
+          "unit": "serving"
+        },
+        {
+          "id": 93,
+          "name": "onion",
+          "original": "1 serving onion",
+          "amount": 1,
+          "unit": "serving"
+        },
+        {
+          "id": 94,
+          "name": "fajita seasoning",
+          "original": "1 serving fajita seasoning",
+          "amount": 1,
+          "unit": "serving"
+        },
+        {
+          "id": 95,
+          "name": "lime",
+          "original": "1 serving lime",
+          "amount": 1,
+          "unit": "serving"
+        }
+      ],
+      "analyzedInstructions": [
+        {
+          "name": "",
+          "steps": [
+            {
+              "number": 1,
+              "step": "Prepare all ingredients."
+            },
+            {
+              "number": 2,
+              "step": "Cook the main ingredients according to the recipe style."
+            },
+            {
+              "number": 3,
+              "step": "Season to taste."
+            },
+            {
+              "number": 4,
+              "step": "Serve fresh and enjoy."
+            }
+          ]
+        }
+      ],
+      "nutrition": {
+        "nutrients": [
+          {
+            "name": "Calories",
+            "amount": 390,
+            "unit": "kcal"
+          },
+          {
+            "name": "Protein",
+            "amount": 35,
+            "unit": "g"
+          },
+          {
+            "name": "Fat",
+            "amount": 12,
+            "unit": "g"
+          },
+          {
+            "name": "Carbohydrates",
+            "amount": 34,
+            "unit": "g"
+          },
+          {
+            "name": "Fiber",
+            "amount": 5,
+            "unit": "g"
+          }
+        ]
+      }
+    },
+    {
+      "id": 120,
+      "title": "Thai Green Curry",
+      "image": "https://images.unsplash.com/photo-1562565652-a0d8f0c59eb4?w=600&h=400&fit=crop",
+      "imageType": "jpg",
+      "readyInMinutes": 35,
+      "servings": 4,
+      "summary": "<b>Thai Green Curry</b> is a flavorful recipe with simple ingredients and balanced nutrition.",
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "dishTypes": [
+        "dinner"
+      ],
+      "cuisines": [
+        "thai"
+      ],
+      "diets": [
+        "vegetarian",
+        "vegan",
+        "gluten free",
+        "dairy free"
+      ],
+      "aggregateLikes": 439,
+      "healthScore": 76,
+      "extendedIngredients": [
+        {
+          "id": 96,
+          "name": "green curry paste",
+          "original": "1 serving green curry paste",
+          "amount": 1,
+          "unit": "serving"
+        },
+        {
+          "id": 97,
+          "name": "coconut milk",
+          "original": "1 serving coconut milk",
+          "amount": 1,
+          "unit": "serving"
+        },
+        {
+          "id": 98,
+          "name": "tofu",
+          "original": "1 serving tofu",
+          "amount": 1,
+          "unit": "serving"
+        },
+        {
+          "id": 99,
+          "name": "zucchini",
+          "original": "1 serving zucchini",
+          "amount": 1,
+          "unit": "serving"
+        },
+        {
+          "id": 100,
+          "name": "basil",
+          "original": "1 serving basil",
+          "amount": 1,
+          "unit": "serving"
+        }
+      ],
+      "analyzedInstructions": [
+        {
+          "name": "",
+          "steps": [
+            {
+              "number": 1,
+              "step": "Prepare all ingredients."
+            },
+            {
+              "number": 2,
+              "step": "Cook the main ingredients according to the recipe style."
+            },
+            {
+              "number": 3,
+              "step": "Season to taste."
+            },
+            {
+              "number": 4,
+              "step": "Serve fresh and enjoy."
+            }
+          ]
+        }
+      ],
+      "nutrition": {
+        "nutrients": [
+          {
+            "name": "Calories",
+            "amount": 430,
+            "unit": "kcal"
+          },
+          {
+            "name": "Protein",
+            "amount": 15,
+            "unit": "g"
+          },
+          {
+            "name": "Fat",
+            "amount": 28,
+            "unit": "g"
+          },
+          {
+            "name": "Carbohydrates",
+            "amount": 32,
+            "unit": "g"
+          },
+          {
+            "name": "Fiber",
+            "amount": 6,
+            "unit": "g"
+          }
+        ]
+      }
+    },
+    {
+      "id": 121,
+      "title": "Tuna Salad Bowl",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&h=400&fit=crop",
+      "imageType": "jpg",
+      "readyInMinutes": 15,
+      "servings": 2,
+      "summary": "<b>Tuna Salad Bowl</b> is a flavorful recipe with simple ingredients and balanced nutrition.",
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "dishTypes": [
+        "lunch",
+        "salad"
+      ],
+      "cuisines": [
+        "mediterranean"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "aggregateLikes": 476,
+      "healthScore": 79,
+      "extendedIngredients": [
+        {
+          "id": 101,
+          "name": "tuna",
+          "original": "1 serving tuna",
+          "amount": 1,
+          "unit": "serving"
+        },
+        {
+          "id": 102,
+          "name": "lettuce",
+          "original": "1 serving lettuce",
+          "amount": 1,
+          "unit": "serving"
+        },
+        {
+          "id": 103,
+          "name": "cucumber",
+          "original": "1 serving cucumber",
+          "amount": 1,
+          "unit": "serving"
+        },
+        {
+          "id": 104,
+          "name": "tomatoes",
+          "original": "1 serving tomatoes",
+          "amount": 1,
+          "unit": "serving"
+        },
+        {
+          "id": 105,
+          "name": "olive oil",
+          "original": "1 serving olive oil",
+          "amount": 1,
+          "unit": "serving"
+        }
+      ],
+      "analyzedInstructions": [
+        {
+          "name": "",
+          "steps": [
+            {
+              "number": 1,
+              "step": "Prepare all ingredients."
+            },
+            {
+              "number": 2,
+              "step": "Cook the main ingredients according to the recipe style."
+            },
+            {
+              "number": 3,
+              "step": "Season to taste."
+            },
+            {
+              "number": 4,
+              "step": "Serve fresh and enjoy."
+            }
+          ]
+        }
+      ],
+      "nutrition": {
+        "nutrients": [
+          {
+            "name": "Calories",
+            "amount": 350,
+            "unit": "kcal"
+          },
+          {
+            "name": "Protein",
+            "amount": 31,
+            "unit": "g"
+          },
+          {
+            "name": "Fat",
+            "amount": 18,
+            "unit": "g"
+          },
+          {
+            "name": "Carbohydrates",
+            "amount": 14,
+            "unit": "g"
+          },
+          {
+            "name": "Fiber",
+            "amount": 5,
+            "unit": "g"
+          }
+        ]
+      }
+    },
+    {
+      "id": 122,
+      "title": "Apple Cinnamon Oatmeal",
+      "image": "https://images.unsplash.com/photo-1517673132405-a56a62b18caf?w=600&h=400&fit=crop",
+      "imageType": "jpg",
+      "readyInMinutes": 15,
+      "servings": 1,
+      "summary": "<b>Apple Cinnamon Oatmeal</b> is a flavorful recipe with simple ingredients and balanced nutrition.",
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": false,
+      "dairyFree": true,
+      "dishTypes": [
+        "breakfast"
+      ],
+      "cuisines": [
+        "american"
+      ],
+      "diets": [
+        "vegetarian",
+        "vegan",
+        "dairy free"
+      ],
+      "aggregateLikes": 513,
+      "healthScore": 82,
+      "extendedIngredients": [
+        {
+          "id": 106,
+          "name": "oats",
+          "original": "1 serving oats",
+          "amount": 1,
+          "unit": "serving"
+        },
+        {
+          "id": 107,
+          "name": "apple",
+          "original": "1 serving apple",
+          "amount": 1,
+          "unit": "serving"
+        },
+        {
+          "id": 108,
+          "name": "cinnamon",
+          "original": "1 serving cinnamon",
+          "amount": 1,
+          "unit": "serving"
+        },
+        {
+          "id": 109,
+          "name": "almond milk",
+          "original": "1 serving almond milk",
+          "amount": 1,
+          "unit": "serving"
+        },
+        {
+          "id": 110,
+          "name": "maple syrup",
+          "original": "1 serving maple syrup",
+          "amount": 1,
+          "unit": "serving"
+        }
+      ],
+      "analyzedInstructions": [
+        {
+          "name": "",
+          "steps": [
+            {
+              "number": 1,
+              "step": "Prepare all ingredients."
+            },
+            {
+              "number": 2,
+              "step": "Cook the main ingredients according to the recipe style."
+            },
+            {
+              "number": 3,
+              "step": "Season to taste."
+            },
+            {
+              "number": 4,
+              "step": "Serve fresh and enjoy."
+            }
+          ]
+        }
+      ],
+      "nutrition": {
+        "nutrients": [
+          {
+            "name": "Calories",
+            "amount": 360,
+            "unit": "kcal"
+          },
+          {
+            "name": "Protein",
+            "amount": 9,
+            "unit": "g"
+          },
+          {
+            "name": "Fat",
+            "amount": 8,
+            "unit": "g"
+          },
+          {
+            "name": "Carbohydrates",
+            "amount": 66,
+            "unit": "g"
+          },
+          {
+            "name": "Fiber",
+            "amount": 9,
+            "unit": "g"
+          }
+        ]
+      }
+    },
+    {
+      "id": 123,
+      "title": "Lentil Bolognese",
+      "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=600&h=400&fit=crop",
+      "imageType": "jpg",
+      "readyInMinutes": 45,
+      "servings": 4,
+      "summary": "<b>Lentil Bolognese</b> is a flavorful recipe with simple ingredients and balanced nutrition.",
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": false,
+      "dairyFree": true,
+      "dishTypes": [
+        "dinner"
+      ],
+      "cuisines": [
+        "italian"
+      ],
+      "diets": [
+        "vegetarian",
+        "vegan",
+        "dairy free"
+      ],
+      "aggregateLikes": 550,
+      "healthScore": 85,
+      "extendedIngredients": [
+        {
+          "id": 111,
+          "name": "lentils",
+          "original": "1 serving lentils",
+          "amount": 1,
+          "unit": "serving"
+        },
+        {
+          "id": 112,
+          "name": "tomato sauce",
+          "original": "1 serving tomato sauce",
+          "amount": 1,
+          "unit": "serving"
+        },
+        {
+          "id": 113,
+          "name": "spaghetti",
+          "original": "1 serving spaghetti",
+          "amount": 1,
+          "unit": "serving"
+        },
+        {
+          "id": 114,
+          "name": "carrot",
+          "original": "1 serving carrot",
+          "amount": 1,
+          "unit": "serving"
+        },
+        {
+          "id": 115,
+          "name": "celery",
+          "original": "1 serving celery",
+          "amount": 1,
+          "unit": "serving"
+        }
+      ],
+      "analyzedInstructions": [
+        {
+          "name": "",
+          "steps": [
+            {
+              "number": 1,
+              "step": "Prepare all ingredients."
+            },
+            {
+              "number": 2,
+              "step": "Cook the main ingredients according to the recipe style."
+            },
+            {
+              "number": 3,
+              "step": "Season to taste."
+            },
+            {
+              "number": 4,
+              "step": "Serve fresh and enjoy."
+            }
+          ]
+        }
+      ],
+      "nutrition": {
+        "nutrients": [
+          {
+            "name": "Calories",
+            "amount": 520,
+            "unit": "kcal"
+          },
+          {
+            "name": "Protein",
+            "amount": 24,
+            "unit": "g"
+          },
+          {
+            "name": "Fat",
+            "amount": 9,
+            "unit": "g"
+          },
+          {
+            "name": "Carbohydrates",
+            "amount": 82,
+            "unit": "g"
+          },
+          {
+            "name": "Fiber",
+            "amount": 14,
+            "unit": "g"
+          }
+        ]
+      }
+    },
+    {
+      "id": 124,
+      "title": "Mango Chia Pudding",
+      "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600&h=400&fit=crop",
+      "imageType": "jpg",
+      "readyInMinutes": 10,
+      "servings": 2,
+      "summary": "<b>Mango Chia Pudding</b> is a flavorful recipe with simple ingredients and balanced nutrition.",
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "dishTypes": [
+        "dessert"
+      ],
+      "cuisines": [
+        "thai"
+      ],
+      "diets": [
+        "vegetarian",
+        "vegan",
+        "gluten free",
+        "dairy free"
+      ],
+      "aggregateLikes": 587,
+      "healthScore": 88,
+      "extendedIngredients": [
+        {
+          "id": 116,
+          "name": "chia seeds",
+          "original": "1 serving chia seeds",
+          "amount": 1,
+          "unit": "serving"
+        },
+        {
+          "id": 117,
+          "name": "coconut milk",
+          "original": "1 serving coconut milk",
+          "amount": 1,
+          "unit": "serving"
+        },
+        {
+          "id": 118,
+          "name": "mango",
+          "original": "1 serving mango",
+          "amount": 1,
+          "unit": "serving"
+        },
+        {
+          "id": 119,
+          "name": "maple syrup",
+          "original": "1 serving maple syrup",
+          "amount": 1,
+          "unit": "serving"
+        },
+        {
+          "id": 120,
+          "name": "vanilla",
+          "original": "1 serving vanilla",
+          "amount": 1,
+          "unit": "serving"
+        }
+      ],
+      "analyzedInstructions": [
+        {
+          "name": "",
+          "steps": [
+            {
+              "number": 1,
+              "step": "Prepare all ingredients."
+            },
+            {
+              "number": 2,
+              "step": "Cook the main ingredients according to the recipe style."
+            },
+            {
+              "number": 3,
+              "step": "Season to taste."
+            },
+            {
+              "number": 4,
+              "step": "Serve fresh and enjoy."
+            }
+          ]
+        }
+      ],
+      "nutrition": {
+        "nutrients": [
+          {
+            "name": "Calories",
+            "amount": 290,
+            "unit": "kcal"
+          },
+          {
+            "name": "Protein",
+            "amount": 7,
+            "unit": "g"
+          },
+          {
+            "name": "Fat",
+            "amount": 16,
+            "unit": "g"
+          },
+          {
+            "name": "Carbohydrates",
+            "amount": 33,
+            "unit": "g"
+          },
+          {
+            "name": "Fiber",
+            "amount": 10,
+            "unit": "g"
+          }
+        ]
+      }
+    }
+  ],
+  "totalResults": 24
+}
